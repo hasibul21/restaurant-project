@@ -29,7 +29,7 @@ const routes = [
   {
     name: "update",
     component: UpdateRestaurant,
-    path: "/update",
+    path: "/update/:id",
   },
 ];
 const router = createRouter({

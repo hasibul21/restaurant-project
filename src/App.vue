@@ -23,7 +23,7 @@ export default {
   padding: 0;
 }
 
-.register input,  .login input{
+.register input,  .login input, .add input, .update input{
   display: block;
   width: 301px;
   height: 30px;
@@ -35,7 +35,7 @@ export default {
   outline: none;
 }
 
-.register button, .login button{
+.register button, .login button, .add button, .update button{
   width: 120px;
   height: 30px;
   margin-top: 10px;
